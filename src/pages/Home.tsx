@@ -16,6 +16,7 @@ import {
   Gamepad2,
   Monitor,
   Cloud,
+  TrendingUp,
   BarChart3,
 } from 'lucide-react';
 
@@ -25,38 +26,39 @@ export const Home: React.FC = () => {
       title: 'Languages',
       skills: [
         { name: 'Python', icon: Code, color: 'text-blue-400' },
-        { name: 'JavaScript', icon: Code, color: 'text-yellow-400' },
-        { name: 'Java', icon: Code, color: 'text-red-400' },
-        { name: 'C++', icon: Code, color: 'text-purple-400' },
-        { name: 'C', icon: Code, color: 'text-gray-400' },
         { name: 'SQL', icon: Database, color: 'text-green-400' },
+        { name: 'R', icon: Code, color: 'text-red-400' },
+        { name: 'JavaScript', icon: Code, color: 'text-yellow-400' },
         { name: 'HTML/CSS', icon: Code, color: 'text-pink-400' },
       ]
     },
     {
-      title: 'Interests',
+      title: 'Analytics & Data Skills',
       skills: [
-        { name: 'Machine Learning', icon: Brain, color: 'text-pink-400' },
-        { name: 'System Architecture', icon: Layers, color: 'text-purple-400' },
-        { name: 'Backend Development', icon: Server, color: 'text-green-400' },
-        { name: 'Game Development', icon: Gamepad2, color: 'text-yellow-400' },
+        { name: 'Data Cleaning', icon: Database, color: 'text-purple-400' },
+        { name: 'Data Visualization', icon: BarChart3, color: 'text-pink-400' },
+        { name: 'Statistical Analysis', icon: Brain, color: 'text-blue-400' },
+        { name: 'Predictive Modeling', icon: TrendingUp, color: 'text-green-400' },
+        { name: 'Machine Learning', icon: Brain, color: 'text-yellow-400' },
+        { name: 'Dashboarding', icon: Monitor, color: 'text-cyan-400' },
       ]
     },
     {
-      title: 'Tools and Frameworks',
+      title: 'Tools & Frameworks',
       skills: [
-        { name: 'Git', icon: GitBranch, color: 'text-orange-400' },
-        { name: 'Node.js', icon: Server, color: 'text-green-400' },
-        { name: 'React', icon: Code, color: 'text-cyan-400' },
-        { name: 'VS Code', icon: Monitor, color: 'text-blue-400' },
-        { name: 'Docker', icon: Cpu, color: 'text-blue-400' },
-        { name: 'AWS', icon: Cloud, color: 'text-orange-400' },
-        { name: 'MongoDB', icon: Database, color: 'text-green-400' },
+        { name: 'Pandas', icon: BarChart3, color: 'text-blue-400' },
         { name: 'NumPy', icon: BarChart3, color: 'text-purple-400' },
+        { name: 'Matplotlib', icon: BarChart3, color: 'text-red-400' },
+        { name: 'Power BI', icon: Monitor, color: 'text-green-400' },
+        { name: 'Looker Studio', icon: Monitor, color: 'text-orange-400' },
         { name: 'TensorFlow', icon: Brain, color: 'text-yellow-400' },
+        { name: 'BigQuery', icon: Database, color: 'text-blue-400' },
+        { name: 'PostgreSQL', icon: Database, color: 'text-green-400' },
+        { name: 'Excel', icon: BarChart3, color: 'text-gray-400' },
       ]
     }
   ];
+
 
   const containerVariants = {
     hidden: { opacity: 0 },
