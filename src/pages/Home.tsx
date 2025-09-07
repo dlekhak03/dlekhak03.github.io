@@ -140,7 +140,7 @@ export const Home: React.FC = () => {
               <motion.a
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 whileTap={{ scale: 0.9 }}
-                href="https://github.com/dlekhak03/dlekhak03.github.io/blob/gh-pages/deepak_lekhak_resume.pdf"
+                href="/deepak_lekhak_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-terminal-surface border border-terminal-border rounded-lg hover:border-terminal-purple transition-colors group"
